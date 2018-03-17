@@ -6,4 +6,7 @@
 @import 'base/reset';
 @import 'base/typography';
 
-@import 'layout/general';
+@import 'layout/all';
+@import 'layout/elements';
+
+@import 'layout/general/header';

@@ -1,0 +1,15 @@
+html, body, #root, .content{
+	height: 100%;
+}
+
+h1, h2, h3, h4, li, a, p{
+	font-family: helvetica;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: $backgroundColor;
+}
