@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Header from '../../general/headers/Header';
 import Banner from '../../general/Banner';
 import Card from '../../general/Card';
-import Artist from './Artist.js';
+import Artist from '../../general/Artist.js';
+import { Link } from 'react-router-dom';
 
 class Festival extends Component {
 	render() {
@@ -33,13 +34,30 @@ class Festival extends Component {
 						</li>
 					</ul>
 				</Card>
-
 				<Card title="Headliners">
 					<ul className="list_img_title_subtitle_icon">
 						<Artist />
 						<Artist />
 						<Artist />
 						<Artist />
+					</ul>
+				</Card>
+				<Card title="Line up" listWithTitle={true} >
+					<ul className="list_key_value">
+						<li>
+							<Link to="/lineup/1/wednesday">
+								<p className="key">Wednesday</p>
+								<p className="value">28 July</p>
+							</Link>
+						</li>
+						<li>
+							<p className="key">Thursday</p>
+							<p className="value">29 July</p>
+						</li>
+						<li>
+							<p className="key">Friday</p>
+							<p className="value">30 July</p>
+						</li>
 					</ul>
 				</Card>
       </div>

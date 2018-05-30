@@ -4,6 +4,7 @@ import '../style/css/main.css';
 
 import Home from './pages/home/Home';
 import Festival from './pages/festival/Festival';
+import LineUp from './pages/lineUp/LineUp';
 
 class Main extends Component {
   render() {
@@ -11,6 +12,7 @@ class Main extends Component {
   		<div className="content">
   			<Route path="/home" component={Home} />
         <Route path="/festival/:festivalID" component={Festival} />
+        <Route path="/lineup/:festivalID/:day" component={LineUp} />
   		</div>
 	  );
   }

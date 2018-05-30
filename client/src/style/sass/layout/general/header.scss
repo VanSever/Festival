@@ -51,4 +51,28 @@
       width: 25px;
     }
   }
+  .select_wrapper{
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    select{
+      color: $light;
+      font-size: 14pt;
+      border: none;
+      border-radius: 0px;
+      border-bottom: 1px solid $light;
+      background-color: transparent;
+      outline: none;
+      padding-right: 5px;
+      &:focus{
+        border-bottom: 1px solid $accentColor;
+      }
+    }
+    .select_button{
+      position: absolute;
+      width: 15px;
+      top: 9px;
+      right: -1px;
+    }
+  }
 }

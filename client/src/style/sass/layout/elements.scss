@@ -281,6 +281,15 @@ button{
     }
   }
 }
+.card_with_list{
+  .list_key_value{
+    li{
+      &:first-of-type{
+        border-top: $lightBorder;
+      }
+    }
+  }
+}
 
 .banner{
   width: 100%;

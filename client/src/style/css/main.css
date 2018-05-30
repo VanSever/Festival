@@ -321,6 +321,9 @@ button {
   .list_key_value li .external_link {
     color: #FF5722; }
 
+.card_with_list .list_key_value li:first-of-type {
+  border-top: 1px solid #E1E1E1; }
+
 .banner {
   width: 100%;
   position: relative;
@@ -397,5 +400,25 @@ button {
     order: 2; }
     .header .right_button_form input {
       width: 25px; }
+  .header .select_wrapper {
+    float: left;
+    margin-left: 10px;
+    position: relative; }
+    .header .select_wrapper select {
+      color: #ffffff;
+      font-size: 14pt;
+      border: none;
+      border-radius: 0px;
+      border-bottom: 1px solid #ffffff;
+      background-color: transparent;
+      outline: none;
+      padding-right: 5px; }
+      .header .select_wrapper select:focus {
+        border-bottom: 1px solid #FF5722; }
+    .header .select_wrapper .select_button {
+      position: absolute;
+      width: 15px;
+      top: 9px;
+      right: -1px; }
 
 /*# sourceMappingURL=main.css.map */
