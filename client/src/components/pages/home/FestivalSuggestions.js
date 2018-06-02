@@ -10,7 +10,7 @@ class festivalSuggestions extends Component {
 		return (
       <Card>
         <header className="img_title">
-          <img src="http://www.beitlive.com/wp-content/uploads/2016/06/Kc9UcKLp.jpg" />
+          <img src="" />
           <div className="titles">
             <h2>Couleur café</h2>
             <h3>27 juni tot 1 juli 2018</h3>
@@ -19,15 +19,15 @@ class festivalSuggestions extends Component {
         <div className="artist_list">
           <ArtistSuggestion
             artistName="Whitney"
-            artistImgLink="https://media1.fdncms.com/sevendaysvt/imager/u/original/3736637/musicfeature1-1-bdc4ffc6b92c14b1.jpg"
+            artistImgLink=""
           />
           <ArtistSuggestion
             artistName="Nirvana"
-            artistImgLink="https://media.pitchfork.com/photos/5929951f5e6ef9596931f1d0/1:1/w_300/2f8f1925.jpg"
+            artistImgLink=""
           />
           <ArtistSuggestion
             artistName="Red Hot Chili Peppers"
-            artistImgLink="https://upload.wikimedia.org/wikipedia/commons/9/9b/Red_Hot_Chili_Peppers_2012-07-02_001.jpg"
+            artistImgLink=""
           />
         </div>
         <div className="more_info_festival">

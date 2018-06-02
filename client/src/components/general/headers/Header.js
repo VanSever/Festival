@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Rating from '../Rating';
 
 class Header extends Component {
 	returnBack(event){
@@ -23,6 +24,9 @@ class Header extends Component {
 		}
 	}
 	generateRightButton(){
+		if(this.props.rate){
+			return <Rating />;
+		}
 		if(this.props.like){
 			return(
 				<form onSubmit={(event) => this.returnBack(event)} className="right_button_form">

@@ -16,7 +16,7 @@ class Festival extends Component {
 					like={true}
 				/>
 				<Banner
-					imgLink="http://www.beslack.be/sites/default/files/content/images/couleur_cafe.jpg"
+					imgLink=""
 				/>
 				<Card>
 					<ul className="list_key_value">

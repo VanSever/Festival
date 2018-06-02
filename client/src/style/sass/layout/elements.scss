@@ -174,7 +174,7 @@ button{
   padding: 0px;
   color: $accentColor;
   font-size: 11pt;
-  background-color: white;
+  background-color: transparent;
   font-weight: bold;
   box-shadow: none;
   border: none;
@@ -206,54 +206,55 @@ button{
         margin-bottom: 3px;
       }
     }
-    .button_form{
-      margin-left: auto;
-      order: 2;
-      position: relative;
-      input{
-        width: 25px;
-      }
-      .emoji_button{
+  }
+}
+
+.button_form{
+  margin-left: auto;
+  order: 2;
+  position: relative;
+  input{
+    width: 25px;
+  }
+  .emoji_button{
+    font-size: 25px;
+    outline: none;
+  }
+  button{
+    cursor: pointer;
+  }
+  .rating_options{
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    left: -10px;
+    border-radius: 20px;
+    box-shadow: $boxShadowHard;
+    padding: 5px 0px;
+    li{
+      margin-top: -5px;
+      margin-bottom: -5px;
+      button{
         font-size: 25px;
         outline: none;
       }
-      button{
-        cursor: pointer;
-      }
-      .rating_options{
-        z-index: 1;
-        position: absolute;
-        background-color: white;
-        position: absolute;
-        left: -10px;
-        border-radius: 20px;
-        box-shadow: $boxShadowHard;
-        padding: 5px 0px;
-        li{
-          margin-top: -5px;
-          margin-bottom: -5px;
-          button{
-            font-size: 25px;
-            outline: none;
-          }
-        }
-      }
-      .rating_position_1{
-        top: -5px;
-      }
-      .rating_position_2{
-        top: -43px;
-      }
-      .rating_position_3{
-        top: -81px;
-      }
-      .rating_position_4{
-        top: -119px;
-      }
-      .rating_position_5{
-        top: -157px;
-      }
     }
+  }
+  .rating_position_1{
+    top: -5px;
+  }
+  .rating_position_2{
+    top: -43px;
+  }
+  .rating_position_3{
+    top: -81px;
+  }
+  .rating_position_4{
+    top: -119px;
+  }
+  .rating_position_5{
+    top: -157px;
   }
 }
 

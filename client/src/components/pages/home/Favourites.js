@@ -9,7 +9,7 @@ class Favourites extends Component {
         <Card title="Saved festivals">
 					<ul className="list_img_title_subtitle_icon">
 						<li>
-							<img src="http://www.beitlive.com/wp-content/uploads/2016/06/Kc9UcKLp.jpg" />
+							<img src="" />
 							<div className="titles">
 								<h2>Couleur café</h2>
 								<h3>27 juni tot 1 juli 2018</h3>
@@ -22,7 +22,7 @@ class Favourites extends Component {
 		          </form>
 						</li>
 						<li>
-							<img src="http://www.beitlive.com/wp-content/uploads/2016/06/Kc9UcKLp.jpg" />
+							<img src="" />
 							<div className="titles">
 								<h2>Couleur café</h2>
 								<h3>27 juni tot 1 juli 2018</h3>

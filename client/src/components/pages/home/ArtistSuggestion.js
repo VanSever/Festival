@@ -16,7 +16,7 @@ class ArtistSuggestion extends Component {
               className="play_button"
             />
           </form>
-          <Link to="/">
+          <Link to="/artist/1">
             <img src="/icons/more_button.svg" className="more_button" />
           </Link>
         </div>

@@ -29,11 +29,12 @@ class Tabs extends Component {
   }
 
   generateTabs(){
-    return this.props.tabNames.map(name => {
+    return this.props.tabNames.map((name, index) => {
       return (
         <li
-          onClick={() => this.changeTabIndexWithClick(0)}
-          className={this.getActiveTab(0)}
+          onClick={() => this.changeTabIndexWithClick(index)}
+          className={this.getActiveTab(index)}
+          key={index}
         >
           {name}
         </li>
